@@ -79,7 +79,7 @@ const Gallery = () => {
                 ))}
                 <div className="bg-[rgb(250,250,250)] border-dashed relative group rounded cursor-pointer border-2 flex flex-col justify-center space-y-5 items-center font-semibold">
                   <BsImage />
-                  <p className="text-xs md:text-md lg:text-lg md:mt-2">
+                  <p className="text-[6px] md:text-md lg:text-lg md:mt-2">
                     Add Images
                   </p>
                 </div>
