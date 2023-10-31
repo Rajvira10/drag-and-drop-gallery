@@ -42,7 +42,7 @@ const SortableItem = ({ image, index }) => {
     >
       <input
         type="checkbox"
-        className="absolute top-3 left-3 z-50 w-3 h-3 md:h-4 md:w-4"
+        className="absolute top-2 left-2 md:top-3 md:left-3 z-50 w-3 h-3 md:h-4 md:w-4"
         checked={isImageSelected}
         onChange={() => handleImageClick(index)}
       />
