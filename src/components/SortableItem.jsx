@@ -38,6 +38,7 @@ const SortableItem = ({ image, index }) => {
       className={`relative group rounded cursor-pointer border-2 ${
         index === 0 ? "col-span-2 row-span-2" : ""
       }`}
+      style={{ touchAction: "none" }}
     >
       <input
         type="checkbox"
