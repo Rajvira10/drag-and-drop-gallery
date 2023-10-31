@@ -55,7 +55,8 @@ const SortableItem = ({ image, index }) => {
       >
         {isImageSelected ? (
           <>
-            <img src={image} alt="image" className="w-full h-auto relative" />
+            <img src={image} alt="image" className={"w-full h-auto relative"} />
+            <div className="absolute inset-0 bg-white opacity-50 transition-opacity duration-300 flex items-center justify-center"></div>
           </>
         ) : (
           <>
